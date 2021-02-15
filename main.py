@@ -9,4 +9,4 @@ token = input("Enter Bot Token: ")
 async def twentyonesix(ctx):
     await ctx.send("And he said unto me, It is done. I am Alpha and Omega, the beginning and the end. I will give unto him that is athirst of the fountain of the water of life freely.")
     print("sent")
-bot.run()
+bot.run(token)
